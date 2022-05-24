@@ -1,12 +1,10 @@
 Skapar en ny katalog döpt test1:
-
 mkdir exercise1
 
 Dirigerar till den nya mappen:
 cd exercise1
 
 Öppnar en ny fil döpt main.c i editorn nano:
-
 sudo nano main.c
 
 Kompilerar alla C-filer med varningar aktiverat och skapar en körbar fil döpt main:
