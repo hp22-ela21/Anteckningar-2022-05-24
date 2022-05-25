@@ -5,6 +5,7 @@ Dirigerar till den nya katalogen:
 cd exercise1
 
 Visar alla filer i aktuell katalog:
+ls
 
 Öppnar en ny fil döpt main.c i editorn nano:
 sudo nano main.c
