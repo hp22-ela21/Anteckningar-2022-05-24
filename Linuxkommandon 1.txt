@@ -1,8 +1,10 @@
 Skapar en ny katalog döpt test1:
 mkdir exercise1
 
-Dirigerar till den nya mappen:
+Dirigerar till den nya katalogen:
 cd exercise1
+
+Visar alla filer i aktuell katalog:
 
 Öppnar en ny fil döpt main.c i editorn nano:
 sudo nano main.c
@@ -24,3 +26,22 @@ cd
 
 Raderar hela katalogen test1 samt alla tillhörande filer:
 sudo rm -r test1
+
+Dirigera bakåt till föregående katalog:
+cd -
+
+Uppdatera information gällande senaste versioner av installerade programvaror:
+sudo apt update 
+
+Uppdatera till senaste programvaror efter ovanstående uppdatering:
+sudo apt upgrade 
+
+Installera paket för mjukvaruutveckling, exempelvis libc, gcc, g++, make med mera:
+sudo apt install build-essential
+
+Ofta används äldre kommenadon med apt-get i stället för apt, såsom
+sudo apt-get update
+
+Dessa fungerar också bra, men de nyare apt-kommandona är ofta något förbättrade. Exempelvis
+medför sudo apt upgrade att tidigara paket raderas vid uppdatering, vilket sudo apt-get upgrade
+inte medför (dessa måste raderas manuellt). Så använd med fördel motsvarande apt-kommandon.
